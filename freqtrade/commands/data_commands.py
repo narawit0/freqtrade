@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 def start_download_data(args: Dict[str, Any]) -> None:
+    print('test')
     """
     Download data (former download_backtest_data.py script)
     """
